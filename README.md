@@ -55,31 +55,29 @@ int main(int argc, const char * argv[]){
             sloc = 0; 
             lines = 0; //reset sloc and lines each loop
 }
-```
- </details> 
+</details>```
 
 <br>
 [From hw1.c](IntroComputerSys/hw1.c) 
 <br> 
-<details> 
+<details>
   <summary>Show code</summary>
-  ```c
+
+```c
 void write_data(Track* buffer, int count) {
     ...
-        // Print the time
-        printf(
-            "reported: %hu/%.3s/%02hu %02hu:%02hu:%02hu\n",
-            2000 + buffer[i].time_reported.year,
-            months[buffer[i].time_reported.month],
-            buffer[i].time_reported.day,
-            buffer[i].time_reported.hour,
-            buffer[i].time_reported.minute,
-            buffer[i].time_reported.second
-        );
-    }
+    // Print the time
+    printf(
+        "reported: %hu/%.3s/%02hu %02hu:%02hu:%02hu\n",
+        2000 + buffer[i].time_reported.year,
+        months[buffer[i].time_reported.month],
+        buffer[i].time_reported.day,
+        buffer[i].time_reported.hour,
+        buffer[i].time_reported.minute,
+        buffer[i].time_reported.second
+    );
 }
-```
-</details> 
+</details>```
 
 [From hw3.c](IntroComputerSys/hw3.c)
 
