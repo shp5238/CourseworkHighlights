@@ -6,6 +6,7 @@ A collection of some work from university. Hope you find it interesting!
 ## Here are some graphs I made for my Introduction to AI course: 
 
 ### Comparing Different Models
+
 ![Screenshot1](IntroToAI/modelComp1.png)
 ![Screenshot2](IntroToAI/modelComp2.png)
 
