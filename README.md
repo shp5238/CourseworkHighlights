@@ -57,6 +57,24 @@ int main(int argc, const char * argv[]){
         for (int i = 1; i< argc; i++){ //loop through files
             sloc = 0; 
             lines = 0; //reset sloc and lines each loop
+
+            FILE *fp = fopen(argv[i], "r"); //open file
+            
+            if (fp == NULL){ //error if file DNE 
+                perror("Could not open file.\n");
+                return 1; //indicate error
+            }
+
+            readFile(fp); //process file
+            printf("%3d %6d %s\n", sloc, lines, argv[i]);
+            fclose(fp); //close file
+        }
+    }
+    
+    if (argc > 2){ //if more than one file, print the totals
+        printf("%3d %6d Total\n", totalSloc, totalLines);
+    }
+    return 0;
 }
 ```
 </details>
@@ -68,18 +86,15 @@ int main(int argc, const char * argv[]){
   <summary>Show code</summary>
 
 ```c
-void write_data(Track* buffer, int count) {
-    ...
-    // Print the time
-    printf(
-        "reported: %hu/%.3s/%02hu %02hu:%02hu:%02hu\n",
-        2000 + buffer[i].time_reported.year,
-        months[buffer[i].time_reported.month],
-        buffer[i].time_reported.day,
-        buffer[i].time_reported.hour,
-        buffer[i].time_reported.minute,
-        buffer[i].time_reported.second
-    );
+void read_data(Track* buffer, int count, const char* file_name) {
+    FILE* file = fopen(file_name, "rb");
+    Track current;
+    for (int i = 0; i < count; ++i) {
+        fread(&current, sizeof(Track), 1, file);
+        buffer[i] = current;
+        memset(&current, 0, sizeof(Track));  // Clear for next read
+    }
+    fclose(file);
 }
 ```
 </details> 
