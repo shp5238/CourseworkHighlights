@@ -38,9 +38,13 @@ A collection of some work from university. Hope you find it interesting!
 | `maps`        | `*`                    | Custom map/grid data                |
 | `matplotlib`  | `pyplot as plt`        | Visualization (inline with Jupyter) |
 
+
+<br>
+<br>
+## Some Fun Snippets from Intro to Computer Systems:
 <details>
   <summary>Show code</summary>
-
+  
   ```c
 int main(int argc, const char * argv[]){ 
     if (argc == 1){//uses standard input when no files in command line
@@ -70,7 +74,54 @@ int main(int argc, const char * argv[]){
     }
     return 0;
 }
-  ```
-  <summary>Show code</summary>
-<details>
+</details>  ```
+[From hw1.c](IntroComputerSys/hw1.c)
+  
+<br>
 
+<details>
+  <summary>Show code</summary>
+  ```c
+void write_data(Track* buffer, int count) {
+    
+
+    for (int i = 0; i < count; ++i) {
+        printf(
+            "lat: %f lon: %f alt: %hd name: %.5s ",
+            buffer[i].latitude, buffer[i].longitude, buffer[i].altitude, buffer[i].name
+        );
+
+        // Print the ID
+        switch (buffer[i].misc.id) {
+            case 0: printf("id: unknown "); break;
+            case 1: printf("id: friend "); break;
+            case 2: printf("id: foe "); break;
+            case 3: printf("id: neutral "); break;
+        }
+
+        // Print the category
+        switch (buffer[i].misc.category) {
+            case 0: printf("cat: ship "); break;
+            case 1: printf("cat: ground vehicle "); break;
+            case 2: printf("cat: airplane "); break;
+        }
+
+        // Print engagement status
+        if (buffer[i].misc.engaged) {
+            printf("engaged ");
+        }
+
+        // Print the time
+        printf(
+            "reported: %hu/%.3s/%02hu %02hu:%02hu:%02hu\n",
+            2000 + buffer[i].time_reported.year,
+            months[buffer[i].time_reported.month],
+            buffer[i].time_reported.day,
+            buffer[i].time_reported.hour,
+            buffer[i].time_reported.minute,
+            buffer[i].time_reported.second
+        );
+    }
+}
+</details>  ```
+[From hw3.c](IntroComputerSys/hw3.c)
