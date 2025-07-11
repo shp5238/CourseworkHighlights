@@ -46,7 +46,7 @@ A collection of some work from university. Hope you find it interesting!
 
 <details>
   
-  <summary>Show code</summary>
+  <summary>Show full code</summary>
   
 ```c
 int main(int argc, const char * argv[]){ 
@@ -84,7 +84,7 @@ int main(int argc, const char * argv[]){
 
 <br> 
 <details>
-  <summary>Show code</summary>
+  <summary>Show full code</summary>
 
 ```c
 void read_data(Track* buffer, int count, const char* file_name) {
