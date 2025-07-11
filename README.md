@@ -8,7 +8,7 @@ Here are some graphs I made for my Introduction to AI course:
 ![Screenshot1](IntroToAI/modelComp1.png)
 ![Screenshot2](IntroToAI/modelComp2.png)
 
-[Click here for the full Jupyter Notebook](IntroToAI/Titanic_Survival_PredHW4.ipynb)
+[Full Jupyter Notebook](IntroToAI/Titanic_Survival_PredHW4.ipynb)
 
 ##### Libraries Used
 
@@ -23,5 +23,5 @@ Here are some graphs I made for my Introduction to AI course:
 ## Also some Search Algorithm stuff: 
 ![Screenshot](IntroToAI/searchAlgsImg.png)
 
-[Click here for the full Jupyter Notebook]([IntroToAI/search_algorithms-HA2.ipynb](https://github.com/shp5238/CourseworkHighlights/blob/main/IntroToAI/search_algorithms%20-%20HA2.ipynb))
+[Full Jupyter Notebook](https://github.com/shp5238/CourseworkHighlights/blob/main/IntroToAI/search_algorithms%20-%20HA2.ipynb)
 
