@@ -7,7 +7,7 @@ Here are some graphs I made for my Introduction to AI course:
 ![Screenshot1](IntroToAI/modelComp1.png)
 ![Screenshot2](IntroToAI/modelComp2.png)
 
-![click here for the full Jupyter Notebook :) ]([https://github.com/shp5238/CourseworkHighlights/blob/main/Titanic_Survival_PredHW4.ipynb](https://github.com/shp5238/CourseworkHighlights/blob/main/IntroToAI/Titanic_Survival_PredHW4.ipynb))
+![click here for the full Jupyter Notebook :) ](IntroToAI/Titanic_Survival_PredHW4.ipynb))
 
 
 Also some YOLO stuff: 
