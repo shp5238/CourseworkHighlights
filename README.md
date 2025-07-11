@@ -1,4 +1,4 @@
-# CourseworkHighlights
+# Coursework Highlights
 A collection of some work from university. Hope you find it interesting! 
 <br>
 <br>
