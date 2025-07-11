@@ -23,4 +23,5 @@ Here are some graphs I made for my Introduction to AI course:
 ## Also some Search Algorithm stuff: 
 ![Screenshot](IntroToAI/searchAlgsImg.png)
 
-[Click here for the full Jupyter Notebook](IntroToAI/search_algorithms-HA2.ipynb)
+[Click here for the full Jupyter Notebook]([IntroToAI/search_algorithms-HA2.ipynb](https://github.com/shp5238/CourseworkHighlights/blob/main/IntroToAI/search_algorithms%20-%20HA2.ipynb))
+
