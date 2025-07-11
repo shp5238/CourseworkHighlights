@@ -39,6 +39,37 @@ A collection of some work from university. Hope you find it interesting!
 | `matplotlib`  | `pyplot as plt`        | Visualization (inline with Jupyter) |
 
 
+### Computer Vision here: 
+![Screenshot](IntroToAI/computerVisionImg.png)
+
+[Full Jupyter Notebook](https://github.com/shp5238/CourseworkHighlights/blob/main/IntroToAI/COMP351_Computer_Vision_.ipynb)
+
+##### Libraries Used
+
+| Library      | Purpose                           |
+| ------------ | --------------------------------- |
+| `tensorflow` | Deep learning framework           |
+| `keras`      | Neural network layers and models  |
+| `numpy`      | Numerical operations              |
+| `matplotlib` | Visualization of training results |
+
+
+### Deep Learning here: 
+
+[Full Jupyter Notebook](https://github.com/shp5238/CourseworkHighlights/blob/main/IntroToAI/COMP351_Deep_Learning.ipynb)
+
+##### Libraries Used
+
+| Library      | Purpose                              |
+| ------------ | ------------------------------------ |
+| `pandas`     | Data manipulation and analysis       |
+| `numpy`      | Numerical operations                 |
+| `matplotlib` | Data visualization                   |
+| `sklearn`    | Data preprocessing, model evaluation |
+| `tensorflow` | Deep learning framework              |
+| `keras`      | High-level neural network API        |
+
+
 <br>
 <br>
 
