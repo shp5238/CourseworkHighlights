@@ -1,6 +1,7 @@
 # CourseworkHighlights
 A collection of some work from university. Hope you find it interesting! 
-
+<br>
+<br>
 
 Here are some graphs I made for my Introduction to AI course: 
 
@@ -19,4 +20,7 @@ Here are some graphs I made for my Introduction to AI course:
 | `sklearn`    | `StandardScaler`, `train_test_split`, `KFold`,<br>`cross_val_score`, `LogisticRegression`,<br>`KNeighborsClassifier`, `DecisionTreeClassifier`, `RandomForestClassifier` | Machine learning models and utilities |
 
 
-Also some YOLO stuff: 
+## Also some Search Algorithm stuff: 
+![Screenshot](IntroToAI/searchAlgsImg.png)
+
+[Click here for the full Jupyter Notebook](IntroToAI/search_algorithms-HA2.ipynb)
