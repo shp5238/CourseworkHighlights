@@ -25,3 +25,13 @@ Here are some graphs I made for my Introduction to AI course:
 
 [Full Jupyter Notebook](https://github.com/shp5238/CourseworkHighlights/blob/main/IntroToAI/search_algorithms%20-%20HA2.ipynb)
 
+##### Libraries Used
+
+| Library       | Modules / Classes Used | Purpose                             |
+| ------------- | ---------------------- | ----------------------------------- |
+| `heapq`       | —                      | Priority queue operations           |
+| `collections` | `deque`                | Fast queue for search algorithms    |
+| `math`        | —                      | Mathematical utilities              |
+| `functions`   | `*`                    | Custom utility functions            |
+| `maps`        | `*`                    | Custom map/grid data                |
+| `matplotlib`  | `pyplot as plt`        | Visualization (inline with Jupyter) |
