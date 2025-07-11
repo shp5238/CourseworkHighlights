@@ -55,43 +55,17 @@ int main(int argc, const char * argv[]){
             sloc = 0; 
             lines = 0; //reset sloc and lines each loop
 }
- </details> ```
+```
+ </details> 
 
-
+<br>
 [From hw1.c](IntroComputerSys/hw1.c) 
 <br> 
 <details> 
   <summary>Show code</summary>
   ```c
 void write_data(Track* buffer, int count) {
-    
-
-    for (int i = 0; i < count; ++i) {
-        printf(
-            "lat: %f lon: %f alt: %hd name: %.5s ",
-            buffer[i].latitude, buffer[i].longitude, buffer[i].altitude, buffer[i].name
-        );
-
-        // Print the ID
-        switch (buffer[i].misc.id) {
-            case 0: printf("id: unknown "); break;
-            case 1: printf("id: friend "); break;
-            case 2: printf("id: foe "); break;
-            case 3: printf("id: neutral "); break;
-        }
-
-        // Print the category
-        switch (buffer[i].misc.category) {
-            case 0: printf("cat: ship "); break;
-            case 1: printf("cat: ground vehicle "); break;
-            case 2: printf("cat: airplane "); break;
-        }
-
-        // Print engagement status
-        if (buffer[i].misc.engaged) {
-            printf("engaged ");
-        }
-
+    ...
         // Print the time
         printf(
             "reported: %hu/%.3s/%02hu %02hu:%02hu:%02hu\n",
