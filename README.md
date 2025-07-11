@@ -42,8 +42,11 @@ A collection of some work from university. Hope you find it interesting!
 <br>
 <br>
 ## Some Fun Snippets from Intro to Computer Systems:
+
 <details>
+  
   <summary>Show code</summary>
+  
 ```c
 int main(int argc, const char * argv[]){ 
     if (argc == 1){//uses standard input when no files in command line
@@ -58,8 +61,8 @@ int main(int argc, const char * argv[]){
 ```
 </details>
 
-<br>
 [From hw1.c](IntroComputerSys/hw1.c) 
+
 <br> 
 <details>
   <summary>Show code</summary>
