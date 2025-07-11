@@ -1,7 +1,5 @@
 # Coursework Highlights
 A collection of some work from university. Hope you find it interesting! 
-<br>
-<br>
 
 ## Here are some graphs I made for my Introduction to AI course: 
 
@@ -21,6 +19,8 @@ A collection of some work from university. Hope you find it interesting!
 | `matplotlib` | `pyplot as plt`                                                                                                                                                          | Data visualization                    |
 | `sklearn`    | `StandardScaler`, `train_test_split`, `KFold`,<br>`cross_val_score`, `LogisticRegression`,<br>`KNeighborsClassifier`, `DecisionTreeClassifier`, `RandomForestClassifier` | Machine learning models and utilities |
 
+<br>
+<br>
 
 ### Also some Search Algorithm stuff: 
 ![Screenshot](IntroToAI/searchAlgsImg.png)
