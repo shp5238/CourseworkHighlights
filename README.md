@@ -54,27 +54,9 @@ int main(int argc, const char * argv[]){
         for (int i = 1; i< argc; i++){ //loop through files
             sloc = 0; 
             lines = 0; //reset sloc and lines each loop
-
-            FILE *fp = fopen(argv[i], "r"); //open file
-            
-            if (fp == NULL){ //error if file DNE 
-                perror("Could not open file.\n");
-                return 1; //indicate error
-            }
-
-            readFile(fp); //process file
-            printf("%3d %6d %s\n", sloc, lines, argv[i]);
-            fclose(fp); //close file
-        }
-    }
-    
-    if (argc > 2){ //if more than one file, print the totals
-        printf("%3d %6d Total\n", totalSloc, totalLines);
-    }
-    return 0;
 }
-```
-</details>
+ </details> ```
+
 
 [From hw1.c](IntroComputerSys/hw1.c) 
 <br> 
