@@ -3,8 +3,9 @@ A collection of some work from university. Hope you find it interesting!
 <br>
 <br>
 
-Here are some graphs I made for my Introduction to AI course: 
+## Here are some graphs I made for my Introduction to AI course: 
 
+### Comparing Different Models
 ![Screenshot1](IntroToAI/modelComp1.png)
 ![Screenshot2](IntroToAI/modelComp2.png)
 
@@ -20,7 +21,7 @@ Here are some graphs I made for my Introduction to AI course:
 | `sklearn`    | `StandardScaler`, `train_test_split`, `KFold`,<br>`cross_val_score`, `LogisticRegression`,<br>`KNeighborsClassifier`, `DecisionTreeClassifier`, `RandomForestClassifier` | Machine learning models and utilities |
 
 
-## Also some Search Algorithm stuff: 
+### Also some Search Algorithm stuff: 
 ![Screenshot](IntroToAI/searchAlgsImg.png)
 
 [Full Jupyter Notebook](https://github.com/shp5238/CourseworkHighlights/blob/main/IntroToAI/search_algorithms%20-%20HA2.ipynb)
