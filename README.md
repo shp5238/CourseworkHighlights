@@ -55,7 +55,8 @@ int main(int argc, const char * argv[]){
             sloc = 0; 
             lines = 0; //reset sloc and lines each loop
 }
-</details>```
+```
+</details>
 
 <br>
 [From hw1.c](IntroComputerSys/hw1.c) 
@@ -77,7 +78,8 @@ void write_data(Track* buffer, int count) {
         buffer[i].time_reported.second
     );
 }
-</details>```
+```
+</details> 
 
 [From hw3.c](IntroComputerSys/hw3.c)
 
