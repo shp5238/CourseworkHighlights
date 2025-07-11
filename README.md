@@ -44,8 +44,7 @@ A collection of some work from university. Hope you find it interesting!
 ## Some Fun Snippets from Intro to Computer Systems:
 <details>
   <summary>Show code</summary>
-  
-  ```c
+```c
 int main(int argc, const char * argv[]){ 
     if (argc == 1){//uses standard input when no files in command line
         readFile(stdin);
@@ -74,12 +73,12 @@ int main(int argc, const char * argv[]){
     }
     return 0;
 }
-</details>  ```
-[From hw1.c](IntroComputerSys/hw1.c)
-  
-<br>
+```
+</details>
 
-<details>
+[From hw1.c](IntroComputerSys/hw1.c) 
+<br> 
+<details> 
   <summary>Show code</summary>
   ```c
 void write_data(Track* buffer, int count) {
@@ -123,5 +122,8 @@ void write_data(Track* buffer, int count) {
         );
     }
 }
-</details>  ```
+```
+</details> 
+
 [From hw3.c](IntroComputerSys/hw3.c)
+
